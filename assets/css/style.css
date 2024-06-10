@@ -25,26 +25,44 @@ header .container .logo-header img {
 header .container .src-bar {
   display: flex;
   align-items: center;
-  border: 1px solid #6DB88D;
+  border: 1px solid #6db88d;
   border-radius: 4px;
   overflow: hidden;
 }
 header .container .src-bar .images {
   width: 300px;
 }
-header .container .src-bar input[type=text] {
+header .container .src-bar .src-edit {
   border: none;
-  padding: 10px 90px;
+  padding-left: 10px;
+  height: 45px;
+  width: 400px;
   flex: 1;
+  font-size: small;
+}
+header .container .src-bar .src-edit:focus {
+  outline: none;
+}
+header .container .src-bar .select-bar {
+  display: flex;
+  align-items: center;
 }
 header .container .src-bar .form-control {
   border: none;
   padding: 10px;
   background: #fff;
   border-left: 1px solid #ccc;
+  border-radius: 0;
+  font-size: small;
+}
+header .container .src-bar .form-control:focus {
+  outline: none;
+}
+header .container .src-bar .arrow-uf {
+  width: 20px;
 }
 header .container .src-bar .btn-success {
-  background: #6DB88D;
+  background: #6db88d;
   border: none;
   color: #fff;
   padding: 10px 15px;
@@ -67,5 +85,5 @@ header .container .rigt-header ul li a i {
   margin-right: 5px;
 }
 header .container .rigt-header ul li a:hover {
-  color: #6DB88D;
+  color: #6db88d;
 }/*# sourceMappingURL=style.css.map */

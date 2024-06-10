@@ -1,6 +1,6 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
 
-$primary-color: #6DB88D;
+$primary-color: #6db88d;
 $secondary-color: #e74c3c;
 $text-color: #333;
 
@@ -33,19 +33,31 @@ header {
     .src-bar {
       display: flex;
       align-items: center;
-      border: 1px solid #6DB88D;
+      border: 1px solid #6db88d;
       border-radius: 4px;
-      overflow: hidden; 
-        
+      overflow: hidden;
+
       .images {
         width: 300px;
       }
 
-      input[type="text"] {
+      .src-edit {
         border: none;
-        padding: 10px 90px;
+        padding-left: 10px;
+        height: 45px;
+        width: 400px;
         flex: 1;
-        
+
+        font-size: small;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .select-bar {
+        display: flex;
+        align-items: center;
       }
 
       .form-control {
@@ -53,6 +65,17 @@ header {
         padding: 10px;
         background: #fff;
         border-left: 1px solid #ccc;
+        border-radius: 0;
+
+        font-size: small;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .arrow-uf {
+        width: 20px;
       }
 
       .btn-success {
@@ -73,7 +96,6 @@ header {
           margin-left: 20px;
 
           a {
-            
             text-decoration: none;
             color: $text-color;
             display: flex;
