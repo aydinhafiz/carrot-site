@@ -1,0 +1,94 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+$primary-color: #6DB88D;
+$secondary-color: #e74c3c;
+$text-color: #333;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-header {
+      img {
+        width: 140px;
+      }
+    }
+
+    .src-bar {
+      display: flex;
+      align-items: center;
+      border: 1px solid #6DB88D;
+      border-radius: 4px;
+      overflow: hidden; 
+        
+      .images {
+        width: 300px;
+      }
+
+      input[type="text"] {
+        border: none;
+        padding: 10px 90px;
+        flex: 1;
+        
+      }
+
+      .form-control {
+        border: none;
+        padding: 10px;
+        background: #fff;
+        border-left: 1px solid #ccc;
+      }
+
+      .btn-success {
+        background: $primary-color;
+        border: none;
+        color: #fff;
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+    }
+
+    .rigt-header {
+      ul {
+        display: flex;
+        list-style: none;
+
+        li {
+          margin-left: 20px;
+
+          a {
+            
+            text-decoration: none;
+            color: $text-color;
+            display: flex;
+            align-items: center;
+
+            i {
+              margin-right: 5px;
+            }
+
+            &:hover {
+              color: $primary-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

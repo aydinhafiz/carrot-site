@@ -1,0 +1,71 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .logo-header img {
+  width: 140px;
+}
+header .container .src-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #6DB88D;
+  border-radius: 4px;
+  overflow: hidden;
+}
+header .container .src-bar .images {
+  width: 300px;
+}
+header .container .src-bar input[type=text] {
+  border: none;
+  padding: 10px 90px;
+  flex: 1;
+}
+header .container .src-bar .form-control {
+  border: none;
+  padding: 10px;
+  background: #fff;
+  border-left: 1px solid #ccc;
+}
+header .container .src-bar .btn-success {
+  background: #6DB88D;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+header .container .rigt-header ul {
+  display: flex;
+  list-style: none;
+}
+header .container .rigt-header ul li {
+  margin-left: 20px;
+}
+header .container .rigt-header ul li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+header .container .rigt-header ul li a i {
+  margin-right: 5px;
+}
+header .container .rigt-header ul li a:hover {
+  color: #6DB88D;
+}/*# sourceMappingURL=style.css.map */
